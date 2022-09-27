@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\bin\Debug\program2.exe.config
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\bin\Debug\program2.exe
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\bin\Debug\program2.pdb
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\obj\Debug\program2.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\obj\Debug\program2.exe
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\obj\Debug\program2.pdb
+D:\dhakshayani\infinite\c#sharp\day1.net\program2\program2\obj\Debug\program2.csproj.AssemblyReference.cache
