@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\obj\Debug\strlen.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\obj\Debug\strlen.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\bin\Debug\strlen.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\bin\Debug\strlen.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\bin\Debug\strlen.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\obj\Debug\strlen.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\strlen\strlen\obj\Debug\strlen.pdb

@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\obj\Debug\minmax.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\obj\Debug\minmax.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\bin\Debug\minmax.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\bin\Debug\minmax.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\bin\Debug\minmax.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\obj\Debug\minmax.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\minmax\minmax\obj\Debug\minmax.pdb

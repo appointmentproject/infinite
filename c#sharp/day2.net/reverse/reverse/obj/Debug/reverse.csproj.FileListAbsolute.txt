@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\obj\Debug\reverse.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\obj\Debug\reverse.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\bin\Debug\reverse.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\bin\Debug\reverse.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\bin\Debug\reverse.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\obj\Debug\reverse.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\reverse\reverse\obj\Debug\reverse.pdb

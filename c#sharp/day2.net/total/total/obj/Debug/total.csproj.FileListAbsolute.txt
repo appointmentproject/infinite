@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\obj\Debug\total.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\obj\Debug\total.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\bin\Debug\total.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\bin\Debug\total.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\bin\Debug\total.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\obj\Debug\total.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\total\total\obj\Debug\total.pdb
