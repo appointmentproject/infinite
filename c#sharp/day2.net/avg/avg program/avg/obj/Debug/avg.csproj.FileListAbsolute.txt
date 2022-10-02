@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\bin\Debug\day2.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\bin\Debug\day2.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\bin\Debug\day2.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\obj\Debug\avg.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\obj\Debug\avg.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\obj\Debug\day2.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\avg\avg program\avg\obj\Debug\day2.pdb

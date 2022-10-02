@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\obj\Debug\program 5.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\obj\Debug\program 5.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\bin\Debug\program 5.exe.config
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\bin\Debug\program 5.exe
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\bin\Debug\program 5.pdb
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\obj\Debug\program 5.exe
+D:\dhakshayani\infinite\c#sharp\day1.net\program 5\program 5\obj\Debug\program 5.pdb

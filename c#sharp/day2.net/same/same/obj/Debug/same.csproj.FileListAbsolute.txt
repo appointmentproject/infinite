@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\obj\Debug\same.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\obj\Debug\same.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\bin\Debug\same.exe.config
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\bin\Debug\same.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\bin\Debug\same.pdb
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\obj\Debug\same.exe
+D:\dhakshayani\infinite\c#sharp\day2.net\same\same\obj\Debug\same.pdb

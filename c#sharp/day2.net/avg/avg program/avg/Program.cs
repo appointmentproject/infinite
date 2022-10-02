@@ -10,9 +10,17 @@ namespace day2
     {
         static void Main(string[] args)
         {
-            int[] arr = { 1, 2, 6, 2, 18 };
-            int i = 0;
-            int sum = 0;
+            Program p=new Program();
+            p.array();
+            p.maxmin();
+            Console.Read();
+            }
+        //1a
+        public void array()
+        { 
+            int[] arr = { 1, 2, 6, 2, 18};
+          
+            int i,sum = 0;
             float average = 0.0F;
             for( i=0; i<arr.Length; i++)
             {
@@ -22,6 +30,33 @@ namespace day2
             Console.WriteLine("Average of array elements:" + average);
             Console.ReadLine();
 
+        }
+        public void maxmin()
+        {
+            int[] arr = new int[5] { 9, 95, 3, 89, 37 };
+            int i, max, min, n;
+            n = 5;
+            max = arr[0];
+            min = arr[0];
+            for (i = 1; i < n; i++)
+            {
+
+                if (arr[i] > max)
+                {
+                    max = arr[i];
+                }
+
+                if (arr[i] < min)
+                {
+                    min = arr[i];
+
+                }
+
+
+            }
+            Console.Write("Maximum element= {0}\n", max);
+            Console.Write("Minimum element= {0}\n", min);
+            Console.ReadLine();
         }
     }
 }
