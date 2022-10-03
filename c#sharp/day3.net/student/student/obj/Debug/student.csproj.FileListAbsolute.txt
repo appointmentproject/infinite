@@ -1,0 +1,6 @@
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\obj\Debug\student.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\bin\Debug\student.exe.config
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\bin\Debug\student.exe
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\bin\Debug\student.pdb
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\obj\Debug\student.exe
+D:\dhakshayani\infinite\c#sharp\day3.net\student\student\obj\Debug\student.pdb

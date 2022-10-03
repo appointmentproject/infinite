@@ -1,0 +1,14 @@
+D:\dhakshayani\infinite\bank\bank\obj\Debug\bank.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\bank\bank\obj\Debug\bank.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\bank\bank\bin\Debug\bank.exe.config
+D:\dhakshayani\infinite\bank\bank\bin\Debug\bank.exe
+D:\dhakshayani\infinite\bank\bank\bin\Debug\bank.pdb
+D:\dhakshayani\infinite\bank\bank\obj\Debug\bank.exe
+D:\dhakshayani\infinite\bank\bank\obj\Debug\bank.pdb
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\bin\Debug\bank.exe.config
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\bin\Debug\bank.exe
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\bin\Debug\bank.pdb
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\obj\Debug\bank.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\obj\Debug\bank.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\obj\Debug\bank.exe
+D:\dhakshayani\infinite\c#sharp\day3.net\bank\bank\obj\Debug\bank.pdb
