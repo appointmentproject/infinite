@@ -47,9 +47,9 @@ namespace day7
         public static void Main()
         {
             Doctor d = new Doctor();
-            d.Regno = 123;
-            d.Name = "A";
-            d.Feecharged = 200;
+            d.Regno = 146;
+            d.Name = "Teja";
+            d.Feecharged = 300;
             d.GetDetails();
             Console.ReadLine();
         }

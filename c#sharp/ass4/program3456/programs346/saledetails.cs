@@ -48,12 +48,12 @@ namespace customer
             }
             public void Displaysalesdetails()
             {
-                Console.WriteLine($"Qty : {Qty},salesNo : {SalesNo},ProductionNo : {ProductionNo},Prize : {Prize},DateOfSale : {DateOfSale},TotalAmount : {Qty * Prize}");
+                Console.WriteLine($"Qty : {Qty}\nsalesNo : {SalesNo}\nProductionNo : {ProductionNo}\nPrize : {Prize}\nDateOfSale : {DateOfSale}\nTotalAmount : {Qty * Prize}");
                 Console.Read();
             }
             static void Main()
             {
-                saledetails s = new saledetails(12, 123, 5, 5, 10);
+                saledetails s = new saledetails(10, 130, 7, 6, 20);
                 s.Displaysalesdetails();
 
 
