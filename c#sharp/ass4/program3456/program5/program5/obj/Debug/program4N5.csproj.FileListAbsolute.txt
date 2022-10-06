@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\bin\Debug\program4N5.exe.config
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\bin\Debug\program4N5.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\bin\Debug\program4N5.pdb
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\obj\Debug\program4N5.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\obj\Debug\program4N5.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\obj\Debug\program4N5.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\program4N5\program4N5\obj\Debug\program4N5.pdb

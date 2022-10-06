@@ -1,0 +1,14 @@
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\obj\Debug\customer.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\bin\Debug\customer.exe.config
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\bin\Debug\customer.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\bin\Debug\customer.pdb
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\obj\Debug\customer.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\obj\Debug\customer.pdb
+D:\dhakshayani\infinite\c#sharp\ass4\customer\customer\obj\Debug\customer.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\bin\Debug\customer.exe.config
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\bin\Debug\customer.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\bin\Debug\customer.pdb
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\obj\Debug\customer.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\obj\Debug\customer.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\obj\Debug\customer.exe
+D:\dhakshayani\infinite\c#sharp\ass4\customer\programs3456\obj\Debug\customer.pdb
