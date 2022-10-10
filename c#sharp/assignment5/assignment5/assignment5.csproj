@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment5.concession</StartupObject>
+    <StartupObject>assignment5.PassangerException.passanger</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

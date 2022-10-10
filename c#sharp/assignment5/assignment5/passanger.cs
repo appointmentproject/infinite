@@ -34,14 +34,7 @@ namespace assignment5
             static void Main(string[] args)
             {
                 PassangerException pass = new PassangerException("message");
-                try
-                {
                     pass.TicketBooking();
-                }
-                catch (PassangerException p)
-                {
-                    Console.WriteLine(p.Message);
-                }
                 Console.ReadLine();
             }
         }
