@@ -4,60 +4,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment6
+namespace Day9Dotnet
 {
-    class BookShelf
+    class Book
     {
-        Books b;
-        public static void SetIndexer(Books b)
-        {
-            b[0] = "c#";
-            b[1] = "c++";
-            b[2] = "java";
-            b[3] = "html";
-            b[4] = "sql";
+        string bookname;
+        string authorname;
 
-            b[0L] = "anders hejlsberg";
-            b[1L] = "bjarne stroustrup";
-            b[2L] = "james gosling";
-            b[3L] = "tim bernerslee";
-            b[4L] = "donald";
-            b.Display();
-        }
-        public BookShelf()
+        public Book(string bookname , string authorname)
         {
-            b = new Books();
-            SetIndexer(b);
+            this.bookname = bookname;
+            this.authorname =authorname ;
         }
-    }
-    class Books
-    {
-        string[] BookName = new string[5];
-        string[] AuthorName = new string[5];
-        public string this[int Bname]
-        {
-            get { return BookName[Bname]; }
-            set { BookName[Bname] = value; }
-        }
-        public string this[long Aname]
-        {
-            get { return AuthorName[Aname]; }
-            set { AuthorName[Aname] = value; }
-        }
+
         public void Display()
         {
-            Console.WriteLine("---BookS_Details---");
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine("The author of {0} is {1} ", BookName[i], AuthorName[i]);
-            }
+            Console.WriteLine(bookname + " " + "author is :" + authorname);
         }
     }
-    class Driven_Bookshelf
+    class Bookshelf
     {
-        public static void Main(string[] args)
+        Book[] bookobj = new Book[5];
+
+        public Book this[int pos]
         {
-            BookShelf i = new BookShelf();
+            get { return bookobj[(int)pos]; }
+            set { bookobj[(int)pos] = value; }
+        }
+
+        
+        static void Main()
+        {
+            Bookshelf bs = new Bookshelf();
+            bs[0] = new Book("C#", "anders hejlsberg");
+            bs[1] = new Book("C++", "bjarne stroustrup");
+            bs[2] = new Book("JAVA", "james gosling");
+            bs[3] = new Book("HTML", "tim bernerslee");
+            bs[4] = new Book("SQL", "donald");
+            for (int i = 0; i < 5; i++)
+            {
+                bs[i].Display();
+            }
+            
             Console.Read();
         }
     }

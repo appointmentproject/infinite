@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment6.Program3</StartupObject>
+    <StartupObject>Day9Dotnet.Bookshelf</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
