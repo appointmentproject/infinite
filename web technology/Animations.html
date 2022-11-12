@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position:relative;
+            -webkit-animation-name: ouranimation;
+            animation-name: ouranimation;
+            animation-duration: 5s;
+        }
+       /* @-webkit-keyframes ouranimation{
+
+        }*/
+            /*standard syantax for keyframe rules of animation*/
+        @keyframes ouranimation {
+           0%{
+            background-color:red;
+           } 
+           25%{
+            background-color:yellow;
+            left:200px;
+            top:0px;
+           }
+           50%{
+            background-color:blue;
+            left:200px;
+            top:200px;
+           }
+           75%{
+            background-color:green;
+           left:50px;
+            top:100px;
+           }
+           100%{
+            background-color:hotpink;
+            top:50px;
+           }
+        }
+        
+    </style>
+</head>
+<body>
+    <div>Hi me!!</div>
+</body>

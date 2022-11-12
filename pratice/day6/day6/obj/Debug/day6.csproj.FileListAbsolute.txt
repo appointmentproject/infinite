@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\day6\day6\bin\Debug\day6.exe.config
+D:\dhakshayani\infinite\c#sharp\day6\day6\bin\Debug\day6.exe
+D:\dhakshayani\infinite\c#sharp\day6\day6\bin\Debug\day6.pdb
+D:\dhakshayani\infinite\c#sharp\day6\day6\obj\Debug\day6.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\day6\day6\obj\Debug\day6.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\day6\day6\obj\Debug\day6.exe
+D:\dhakshayani\infinite\c#sharp\day6\day6\obj\Debug\day6.pdb

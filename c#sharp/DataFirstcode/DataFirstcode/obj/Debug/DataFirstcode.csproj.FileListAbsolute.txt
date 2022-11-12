@@ -1,0 +1,12 @@
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\obj\Debug\DataFirstcode.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\obj\Debug\DataFirstcode.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\DataFirstcode.exe.config
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\DataFirstcode.exe
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\DataFirstcode.pdb
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\EntityFramework.dll
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\EntityFramework.SqlServer.dll
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\EntityFramework.xml
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\bin\Debug\EntityFramework.SqlServer.xml
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\obj\Debug\DataFirstcode.csproj.CopyComplete
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\obj\Debug\DataFirstcode.exe
+D:\dhakshayani\infinite\c#sharp\DataFirstcode\DataFirstcode\obj\Debug\DataFirstcode.pdb

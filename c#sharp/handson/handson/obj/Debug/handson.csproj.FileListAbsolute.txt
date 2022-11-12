@@ -1,0 +1,7 @@
+D:\dhakshayani\infinite\c#sharp\handson\handson\obj\Debug\handson.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\handson\handson\obj\Debug\handson.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\handson\handson\bin\Debug\handson.exe.config
+D:\dhakshayani\infinite\c#sharp\handson\handson\bin\Debug\handson.exe
+D:\dhakshayani\infinite\c#sharp\handson\handson\bin\Debug\handson.pdb
+D:\dhakshayani\infinite\c#sharp\handson\handson\obj\Debug\handson.exe
+D:\dhakshayani\infinite\c#sharp\handson\handson\obj\Debug\handson.pdb

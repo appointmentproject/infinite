@@ -1,0 +1,14 @@
+C:\Users\dhakshayanip\source\repos\connection\connection\obj\Debug\connection.csproj.AssemblyReference.cache
+C:\Users\dhakshayanip\source\repos\connection\connection\obj\Debug\connection.csproj.CoreCompileInputs.cache
+C:\Users\dhakshayanip\source\repos\connection\connection\bin\Debug\connection.exe.config
+C:\Users\dhakshayanip\source\repos\connection\connection\bin\Debug\connection.exe
+C:\Users\dhakshayanip\source\repos\connection\connection\bin\Debug\connection.pdb
+C:\Users\dhakshayanip\source\repos\connection\connection\obj\Debug\connection.exe
+C:\Users\dhakshayanip\source\repos\connection\connection\obj\Debug\connection.pdb
+D:\dhakshayani\infinite\c#sharp\connection\connection\bin\Debug\connection.exe.config
+D:\dhakshayani\infinite\c#sharp\connection\connection\bin\Debug\connection.exe
+D:\dhakshayani\infinite\c#sharp\connection\connection\bin\Debug\connection.pdb
+D:\dhakshayani\infinite\c#sharp\connection\connection\obj\Debug\connection.csproj.AssemblyReference.cache
+D:\dhakshayani\infinite\c#sharp\connection\connection\obj\Debug\connection.csproj.CoreCompileInputs.cache
+D:\dhakshayani\infinite\c#sharp\connection\connection\obj\Debug\connection.exe
+D:\dhakshayani\infinite\c#sharp\connection\connection\obj\Debug\connection.pdb

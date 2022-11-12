@@ -1,0 +1,122 @@
+create database assignment
+ 
+ use assignment
+
+
+
+ ----------------------clients----------------------
+create table Client(Client_ID varchar(4) primary key,Cname varchar(40) not null,
+Address Varchar(30),Email varchar(30) Unique,phone varchar(10),Business varchar(20) not null)
+select * from Client
+
+insert into Client values(1001,'ACME Utilities','Noida','contact@acmeutil.com',9567880032,'Manufacturing'),
+(1002,'Trackon','Mumbai','consult@trackon.com',8734210090,'Consultant'),
+(1003,'Moneysaver Distributors','kolkata','save@moneysaver.com',7799886655,'Reseller'),
+(1004,'lawful corp','chennai','justice@lawful.com',9210342219,'professional')
+
+--conditions 
+--updating phone number
+update Client set phone=6304563728
+where Client_ID=1002
+
+
+
+
+----------------------------Employee------------------------
+create table Employee(Empno varchar(4) primary key,Ename varchar(20) not null,Job varchar(15),Salary float,
+Deptno varchar(4) foreign key references Departments(Deptno))
+select * from Employee
+
+insert into Employee values(7001,'sandeep','Analyst',25000,10),(7002,'Rajesh','Designer',30000,10),
+(7003,'Madhav','Developer',40000,20),(7004,'Manoj','Developer',40000,20),(7005,'Abhay','Designer',35000,10),
+(7006,'Uma','Tester',30000,30),(7007,'Gita','Tech.Writer',30000,40),(7008,'Priya','Tester',35000,30),
+(7009,'Nutan','Developer',45000,20),(7010,'Smitha','Analyst',20000,10),(7011,'Anand','project Mgr',65000,10)
+
+--
+select top 5 Salary from Employee
+--
+select * from Employee where Salary >35000
+--
+select Ename,Job from Employee where Job='Developer'
+--
+select max(Salary) from Employee
+--
+select avg(Salary) from Employee
+--
+alter table Employee
+add pincode varchar(5)
+--
+alter table Employee
+drop column pincode
+--
+delete from Employee
+--
+--check constraints
+alter table Employee
+add constraint chkSal check(Salary >=0)
+
+
+
+
+
+----------------------departments----------------------------
+create table Departments(Deptno varchar(4) primary key,Dname varchar(15) not null,Loc varchar(20))
+select * from Departments
+
+insert into Departments values(10,'Design','hyderabad'),(50,'Designer','bangalore'),(60,'Designer','hyderabad'),(70,'Design','bangalore'),
+(100,'Development','hyderabad'),(80,'Developer','bangalore'),(30,'Tester','hyderabad'),
+(90,'Design','pune'),(20,'Development','pune'),(110,'Testing','Mumbai'),(40,'Document','Mumbai')
+--
+alter table Departments
+add constraint defLoc Default 'Bangalore' for Loc
+--
+insert into Departments(Deptno,Dname)
+values(120,'Tester')
+--
+select Dname,Loc from Departments where Loc='hyderabad'
+
+delete from Departments
+
+
+
+------------------------------Projects-----------------------------------
+create table Projects(Project_ID varchar(4) primary key,Descr varchar(30) not null,Start_Date Date,
+Planned_End_Date Date,Actual_End_date Date,Budget varchar(10),Client_ID varchar(4) foreign key references Client(Client_ID))
+select * from Projects
+
+insert into Projects values(401,'inventory','01-Apr-11','01-Oct-11','31-Oct-11',150000,1001),
+(402,'Accounting','01-Aug-11','01-Jan-12','31-Jan-12',500000,1002),(403,'Payroll','01-Oct-11','31-Dec-11','01-Jan-12',75000,1003),
+(404,'Contact Mgmt','01-Nov-11','31-Dec-11','01-Jan-12',50000,1004)
+
+
+alter table Projects
+add constraint Projects check(Actual_End_date > Planned_End_Date)
+alter table Projects
+add constraint chkBud check (Budget > 0)
+
+
+--
+select * from Projects where Project_ID!=401
+--
+select * from Projects where Budget between 75000 and 500000
+
+--EmpProjectTasks
+create table EmpProjectTasks(Project_ID varchar(4),Empno varchar(4) primary key(Project_ID,Empno),
+Start_Date Date,End_Date Date,Task varchar(25)not null,Status varchar(15) not null)
+select * from EmpProjectTasks
+
+insert into EmpProjectTasks values(401,7001,'01-Apr-11','20-Apr-11','System Analysis','Completed'),
+(401,7002,'21-Apr-11','30-May-11','System Design','Completed'),(401,7003,'01-jun-11','15-jun-11','Coding','Completed'),
+(401,7004,'18-Jul-11','01-Sep-11','Coding','Completed'),(401,7006,'03-Sep-11','15-Sep-11','Testing','Completed'),
+(401,7009,'18-Sep-11','05-Oct-11','Code Change','Completed'),(401,7008,'06-Oct-11','16-Oct-11','Testing','Completed'),
+(401,7007,'06-Oct-11','22-Oct-11','Documentation','Completed'),(401,7011,'22-Oct-11','31-Oct-11','Sign off','Completed'),
+(402,7010,'01-Aug-11','20-Aug-11','System Analysis','Completed'),(402,7002,'22-Aug-11','30-Sep-11','System Design','Completed'),
+(402,7004,'01-Oct-11','31-Oct-11','Coding','In progress')
+--
+select Task from EmpProjectTasks where Task like 'c%' 
+--
+select Task from EmpProjectTasks where Task  like '_o%'
+--
+select Task from EmpProjectTasks where Task like '%t%'
+--
+select Task from EmpProjectTasks where Task like '_[^d]%g'

@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace connection
+{
+    class ado
+    {
+    public static SqlConnection con;
+        public static SqlCommand cmd;
+        public static SqlDataReader dr;
+
+        //function that establishes connection with the database server and returns
+        // an object of SqlConnection type
+        public static SqlConnection getConnection()
+        {
+            con = new SqlConnection("data source=ICS-LAP-7459\\SQLEXPRESS;initial catalog=sql;" +
+                "Integrated Security=True");
+            con.Open();
+            return con;
+        }
+    }
+}

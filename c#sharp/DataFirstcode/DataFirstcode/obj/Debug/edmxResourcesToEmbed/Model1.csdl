@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sqlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <ComplexType Name="GetEmployeeByname_Result">
+    <Property Name="EmployeeNo" Type="Int32" />
+    <Property Name="Ename" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Esalary" Type="Double" />
+    <Property Name="EPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </ComplexType>
+  <ComplexType Name="inlinetablefunc1_Result">
+    <Property Name="Empid" Type="Int32" Nullable="false" />
+    <Property Name="Empname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Double" />
+    <Property Name="deptid" Type="Int32" />
+  </ComplexType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="DeptName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Budget" Type="Double" />
+    <Property Name="City" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employee__DeptId__38996AB5" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Empid" />
+    </Key>
+    <Property Name="Empid" Type="Int32" Nullable="false" />
+    <Property Name="Empname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Double" />
+    <Property Name="Gender" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="DeptId" Type="Int32" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Employee__DeptId__38996AB5" FromRole="Employee" ToRole="Department" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="ProdName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="QtyAvailable" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ProductSale">
+    <Key>
+      <PropertyRef Name="ProductSalesId" />
+    </Key>
+    <Property Name="ProductSalesId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="QtySold" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sample">
+    <Key>
+      <PropertyRef Name="eid" />
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="eid" Type="Int32" Nullable="false" />
+    <Property Name="pid" Type="Int32" Nullable="false" />
+    <Property Name="duration" Type="Int32" />
+  </EntityType>
+  <Association Name="FK__Employee__DeptId__38996AB5">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sqlEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductSales" EntityType="Self.ProductSale" />
+    <EntitySet Name="samples" EntityType="Self.sample" />
+    <AssociationSet Name="FK__Employee__DeptId__38996AB5" Association="Self.FK__Employee__DeptId__38996AB5">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <FunctionImport Name="GetEmployeeByname" IsComposable="true" ReturnType="Collection(sqlModel.GetEmployeeByname_Result)">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="inlinetablefunc1" IsComposable="true" ReturnType="Collection(sqlModel.inlinetablefunc1_Result)">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FewEmployee" ReturnType="Collection(sqlModel.FewEmployee_Result)" />
+    <FunctionImport Name="getEmployeebyId" ReturnType="Collection(sqlModel.getEmployeebyId_Result)">
+      <Parameter Name="eid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="getEmployeeSalary">
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="sal" Mode="InOut" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="getMarks">
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="sub" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getno_ofemployees">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="getno_ofemployees_new" ReturnType="Collection(String)">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc1" ReturnType="Collection(sqlModel.proc1_Result)" />
+  </EntityContainer>
+  <ComplexType Name="FewEmployee_Result">
+    <Property Type="Int32" Name="Empid" Nullable="false" />
+    <Property Type="String" Name="Empname" Nullable="true" MaxLength="30" />
+    <Property Type="Double" Name="Salary" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Int32" Name="DeptId" Nullable="true" />
+    <Property Type="String" Name="Phone" Nullable="true" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="getEmployeebyId_Result">
+    <Property Type="Int32" Name="Empid" Nullable="false" />
+    <Property Type="String" Name="Empname" Nullable="true" MaxLength="30" />
+    <Property Type="Double" Name="Salary" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Int32" Name="DeptId" Nullable="true" />
+    <Property Type="String" Name="Phone" Nullable="true" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="proc1_Result">
+    <Property Type="Int32" Name="Empid" Nullable="false" />
+    <Property Type="String" Name="Empname" Nullable="true" MaxLength="30" />
+    <Property Type="Double" Name="Salary" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Int32" Name="DeptId" Nullable="true" />
+    <Property Type="String" Name="Phone" Nullable="true" MaxLength="15" />
+  </ComplexType>
+</Schema>

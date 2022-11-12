@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+    height:300px;
+    width: 300px;
+    color:purple;
+}
+#Myid{
+    color:blue;
+}
+
+.MyClass{
+    color:red;
+}
